@@ -4,10 +4,10 @@ import './ViewTables.css'; // Import custom CSS for styling
 const ViewTables = () => {
   const members = [
     { name: 'Kenneth Angel M. Sayan', address: 'Zone 4-Pasil Kauswagan, Cagayan de Oro City' },
-    { name: '', address: '' },
-    { name: '', address: '' },
-    { name: '', address: '' },
-    { name: '', address: '' }
+    { name: 'Xiregi Galangque', address: ' Alubijid, Misamis Oriental' },
+    { name: 'Nathaniel Mari Gucor', address: 'Puntod Cagayan de Oro City' },
+    { name: 'Raff Shan Rowenn Ladra', address: ' Barra, Opol, Misamis Oriental' },
+    { name: 'Joe Lejan Saguindan', address: 'Barra, Opol, Misamis Oriental' }
   ];
 
   return (
