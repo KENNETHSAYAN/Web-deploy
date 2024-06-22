@@ -1,0 +1,260 @@
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Light gray background */
+    color: black; /* Dark text color for better readability */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #343a40; /* Dark background */
+    padding: 15px 0;
+    position: sticky; /* Make the navbar sticky */
+    top: 0; /* Stick to the top of the viewport */
+    z-index: 1000;
+
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    margin-right: 150px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: color 0.10s ease;
+}
+
+.nav-links a:hover {
+    color: #007bff; /* Change color on hover */
+}
+
+.nav-contact {
+    margin-left: 300px; /* Add some space between navbar links and contact */
+}
+
+/* Sections */
+.section {
+    padding: 50px 0;
+}
+
+.section h2 {
+    margin-bottom: 30px;
+    font-size: 32px; /* Larger heading size */
+}
+
+/* Home Section */
+.home-section {
+    background-color: #007bff; /* Blue background */
+    color: #fff;
+    padding: 100px 0;
+    background-image: url('../public/assets/library.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.home-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.home-content h1 {
+    font-size: 48px; /* Larger heading size */
+    margin-bottom: 20px;
+}
+
+.home-content p {
+    font-size: 18px; /* Larger paragraph size */
+}
+
+/* Search Section */
+.search-section {
+    background-color: #fff; /* White background */
+    padding: 30px 0;
+    text-align: center;
+}
+
+.search-container {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar {
+    flex: 1;
+    padding: 15px;
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 25px;
+    font-size: 16px;
+}
+
+.search-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+    transition: background-color 0.10s ease;
+}
+
+.search-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* About Section */
+.about-section {
+    background-color: #6c757d; /* Dark gray background */
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+/* Courses Section */
+.courses-section {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 100px 0;
+    text-align: center;
+}
+
+.courses-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.course-item {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    transition: transform 0.10s ease;
+    background-color: #fff; /* White background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.course-item:hover {
+    transform: translateY(-5px); /* Lift up on hover */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.course-item h3 {
+    font-size: 24px; /* Larger heading size */
+    margin-bottom: 10px;
+}
+
+.course-item p {
+    font-size: 16px; /* Larger paragraph size */
+    color: #666; /* Dim text color */
+}
+
+/* Categories Section */
+.categories-section {
+    background-color: #6c757d; /* Dark gray background */
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.categories-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.category-item {
+    margin: 20px;
+    padding: 15px 30px;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    transition: background-color 0.10s ease, color 0.3s ease;
+    background-color: transparent;
+    color: #fff;
+}
+
+.category-item:hover {
+    background-color: #007bff; /* Blue background on hover */
+}
+
+/* Blog Section */
+.blog-section {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 100px 0;
+    text-align: center;
+}
+
+.blog-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.blog-item {
+    width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    transition: transform 0.10s ease;
+    background-color: #fff; /* White background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.blog-item:hover {
+    transform: translateY(-10px); /* Lift up on hover */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+}
+
+.blog-item h3 {
+    font-size: 24px; /* Larger heading size */
+    margin-bottom: 10px;
+}
+
+.blog-item p {
+    font-size: 16px; /* Larger paragraph size */
+    color: #666; /* Dim text color */
+}
+
+/* Contact Section */
+.contact-section {
+    background-color: white; /* Blue background */
+    color: black;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.location {
+    margin-top: 30px;
+}
+
+
+.map-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Footer */
+.footer {
+    background-color: #343a40; /* Dark background */
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
