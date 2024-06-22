@@ -95,6 +95,7 @@ export default function Login() {
         <div style={{ position: 'relative', width: '100%' }}>
           <input type={showPassword ? "text" : "password"} id="password" name="password" placeholder="Enter your password" value={data.password} onChange={(e) => setData({ ...data, password: e.target.value })} required style={{ marginBottom: '10px', padding: '10px', width: '550px' }} />
           <span style={{ position: 'absolute', right: '30px', top: '40%', transform: 'translateY(-50%)', cursor: 'pointer' }} onClick={() => setShowPassword(!showPassword)}>
+            {showPassword ? <FontAwesomeIcon icon={faEye} /> : <FontAwesomeIcon icon={faEyeSlash} />}
           </span>
         </div>
         <div style={{ display: 'flex', gap: 340, width: 600, justifyContent: 'start', marginRight: 200 }}>
