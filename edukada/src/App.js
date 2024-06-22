@@ -20,7 +20,12 @@ export default function App() {
           <Route path="/Profile" element={<Profile />} />
           <Route path="/Course" element={<CourseDetailsScreen />} />
           <Route path="/activate/:uid/:token" element={<Activation />} />
+          <Route path="/mathematics" element={<MathematicsScreen />} /> 
+          <Route path="/science" element={<ScienceScreen />} /> 
+          <Route path="/history" element={<HistoryScreen />} /> 
+          <Route path="/english" element={<EnglishScreen />} /> 
           <Route path="/quiz" element={<ExploreQuiz />} /> 
+          <Route path="/view-tables" element={<ViewTable />} /> 
 
         </Routes>
       </BrowserRouter>
