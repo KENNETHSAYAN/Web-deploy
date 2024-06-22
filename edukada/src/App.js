@@ -6,13 +6,7 @@ import Resetpassword from './Authentication/resetpassword';
 import Profile from './Content/profile';
 import CourseDetailsScreen from './Content/CourseDetailsScreen';
 import Activation from './Authentication/activation';
-import MathematicsScreen from './Content/MathematicsScreen'; 
-import ScienceScreen from './Content/ScienceSCreen';
-import HistoryScreen from './Content/HistoryScreen';
-import EnglishScreen from './Content/EnglishScreen';
 import ExploreQuiz from './Content/ExploreQuiz';
-import LandingPage from './Landingpage';
-import ViewTable from './Content/Viewtable';
 
 export default function App() {
   return (
@@ -26,12 +20,7 @@ export default function App() {
           <Route path="/Profile" element={<Profile />} />
           <Route path="/Course" element={<CourseDetailsScreen />} />
           <Route path="/activate/:uid/:token" element={<Activation />} />
-          <Route path="/mathematics" element={<MathematicsScreen />} /> 
-          <Route path="/science" element={<ScienceScreen />} /> 
-          <Route path="/history" element={<HistoryScreen />} /> 
-          <Route path="/english" element={<EnglishScreen />} /> 
           <Route path="/quiz" element={<ExploreQuiz />} /> 
-          <Route path="/view-tables" element={<ViewTable />} /> 
 
         </Routes>
       </BrowserRouter>
