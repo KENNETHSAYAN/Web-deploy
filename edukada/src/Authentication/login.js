@@ -88,7 +88,7 @@ export default function Login() {
   return (
     <div className='container' style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
       <img src='/assets/logo.png' style={{ width: '300px', height: '300px', marginTop: '30px' }} />
-      <p style={{ color: 'black', fontSize: '24px', fontWeight: 'bold', textAlign: 'center', marginTop: '50px' }}>Edukada</p>
+      <p style={{ color: 'black', fontSize: '24px', fontWeight: 'bold', textAlign: 'center', marginTop: '50px' }}>Learnify</p>
 
       <form className="flex max-w-lg flex-col gap-4" style={{ marginTop: '30px', width: '600px' }} onSubmit={handleSubmit}>
         <input type="email" id="email" name="Email" placeholder="Enter your Email" value={data.email} onChange={(e) => setData({ ...data, email: e.target.value })} required style={{ marginBottom: '10px', padding: '10px', width: '550px' }} />

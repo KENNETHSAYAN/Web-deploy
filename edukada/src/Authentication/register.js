@@ -146,7 +146,7 @@ const notifyerroremailmatch = () => toast.error('Make sure that the Email is Cor
             marginTop: "20px",
           }}
         >
-          Edukada
+          Learnify
         </p>
       </div>
 

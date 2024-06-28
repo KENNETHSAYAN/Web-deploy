@@ -35,7 +35,7 @@ export default function Resetpassword() {
     <div className='container' style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh' }}>
       <div style={{ textAlign: 'center', marginRight: '50px' }}>
         <img src='/assets/logo.png' style={{ width: '300px', height: '300px' }} />
-        <p style={{ color: 'black', fontSize: '30px', fontWeight: 'bold', marginTop: '20px' }}>Edukada</p>
+        <p style={{ color: 'black', fontSize: '30px', fontWeight: 'bold', marginTop: '20px' }}>Learnify</p>
       </div>
       <div style={{ textAlign: 'left', marginLeft: '20px' }}>
         <div style={{ textAlign: 'center' }}>

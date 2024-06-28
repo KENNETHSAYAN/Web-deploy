@@ -78,7 +78,7 @@ export default function Profile() {
             <List>
               <ListItem>
                 <ListItemText
-                  primary="Edukada"
+                  primary="Learnify"
                   primaryTypographyProps={{
                     variant: 'h5',
                     style: { fontWeight: 'bold', color: 'Black', marginLeft: '40px', marginTop: '6px', fontSize: '30px' },

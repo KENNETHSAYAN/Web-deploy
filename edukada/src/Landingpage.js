@@ -23,7 +23,7 @@ const LandingPage = () => {
 
       <section id="home" className="home-section">
         <div className="home-content">
-          <h1>Welcome to Edukada</h1>
+          <h1>Welcome to Learnify</h1>
           <p>Your gateway to a brighter future.</p>
         </div>
       </section>
@@ -38,7 +38,7 @@ const LandingPage = () => {
 
       <section id="about" className="about-section">
         <h2>About Us</h2>
-        <p>At Edukada, we are committed to providing top-quality education and resources to help you achieve your dreams. With a team of dedicated professionals and experts in various fields, we strive to create an inclusive learning environment where students can thrive and reach their full potential. Whether you're looking to acquire new skills, advance in your career, or explore new interests, Edukada is here to support you every step of the way. Join us on this journey towards lifelong learning and personal growth.</p>
+        <p>At Learnify, we are committed to providing top-quality education and resources to help you achieve your dreams. With a team of dedicated professionals and experts in various fields, we strive to create an inclusive learning environment where students can thrive and reach their full potential. Whether you're looking to acquire new skills, advance in your career, or explore new interests, Learnify is here to support you every step of the way. Join us on this journey towards lifelong learning and personal growth.</p>
       </section>
 
       <section id="courses" className="courses-section">
@@ -85,7 +85,7 @@ const LandingPage = () => {
 
       <section id="contact" className="contact-section">
         <h2>Contact Us</h2>
-        <p>Have any questions? Reach out to us at (123) 456-7890 or email us at info@edukada.com.</p>
+        <p>Have any questions? Reach out to us at (123) 456-7890 or email us at info@Learnify.com.</p>
         <div className="location">
           <h3>Our Location</h3>
           <p>Cagayan de Oro City, Kauswagan 9000 </p>
@@ -104,7 +104,7 @@ const LandingPage = () => {
       </section>
 
       <footer className="footer">
-        <p>&copy; 2024 Edukada. All rights reserved.</p>
+        <p>&copy; 2024 Learnify. All rights reserved.</p>
       </footer>
     </div>
   );
